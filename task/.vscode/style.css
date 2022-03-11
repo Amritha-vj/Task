@@ -1,0 +1,215 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    left:0px;
+    top:0px;
+}
+[class *="col-"] {
+    float: left;
+    padding: 12px;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+@media only screen and (max-width: 750px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+p {
+    font-size: small;
+    text-align: center;
+}
+#search {
+    width: 35%;
+    border-radius: 50px;
+    display: flex;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+#gmail {
+    float: right;
+    color: green;
+    font-size: 15px;
+}
+/*div.image {
+    width:5in;
+    height:5in;
+    float:left;
+
+}*/
+a.link1 {
+    text-decoration: none;
+    color: blue;
+}
+a.link1:hover {
+    text-decoration:underline;
+
+}
+a.top {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+input[type=text] {
+    width: 40%;
+    border-radius: 25px;
+    border-color: grey;
+    background-image: url('img1.jpg');
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 150px;
+
+}
+.search {
+    width: 600px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+.search .input {
+    display: block;
+    border: 1px solid lightgrey;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+ .search .s-icon {
+     width:30px;
+     position:absolute;
+     top: 8px;
+     left: 10px;
+ }
+ .search .v-icon {
+     width:25px;
+     position: absolute;
+     top: 8px;
+     right: 20px;
+ }
+a {
+    text-decoration: none;
+    color: black;
+    align-items: baseline;
+}
+a :hover{
+    text-decoration: underline;
+}
+
+.button {
+    color: black;
+    background-color: rgb(233, 227, 227);
+    border: grey;
+    border-radius: 6px;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-nav {
+    color: white;
+    background-color: blue;
+    border: blue;
+    border-radius: 6px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(233, 227, 227);
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar a:hover {
+    background-color: lightgrey;
+    text-decoration: underline;
+    color: black;
+}
+.navbar-right {
+    float:right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+   
+    text-decoration: underline;
+}
