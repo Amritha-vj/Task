@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"href="css/gcss.css">
+		<script type="text/javascript" src="js/icon.js"></script>
+		<link rel="icon" type="image/x-icon" href="gicon.jpg">
+		<title>Gmail</title>
+	</head>
+	<body>
+	<div class="container">
+		<div class="container-top">
+			<div class="menu">
+				<i class="fa-solid fa-bars"></i> &nbsp
+				
+			</div>
+			<div class="glogo">
+				<img src="asset/glogo.png" id="img-logo">
+			</div>
+			<div class="search">
+				<form>
+					<input type="text"class="input" placeholder ="Search mail">
+				 	<i class="fa-solid fa-sliders"></i>
+				</form>
+			</div>
+			<div class="support">
+				<i class="fa-regular fa-circle-question"></i> 
+			</div>
+			<div class="settings">
+				<i class="fa-solid fa-gear"></i>
+			</div>
+			<div class="apps">
+				<i class="fa-solid fa-braille"></i>
+			</div>
+			<div class="account">
+				<button class="button-top">A </button>
+			</div>
+			<div class="clear">
+		
+			</div>
+		</div>
+		<div class="container-bottom">
+			<div class="left-container">
+				<div class="compose">
+				
+				</div>
+				<div class="list">
+			
+				</div>
+				<div class="meet">
+				
+				</div>
+				<div class="hangout">
+	
+				</div>
+			</div>
+		<div class="inbox">
+		
+		</div>
+		<div class="last-icons">
+
+		</div>
+	
+		
+		</div>
+	</div>
+	</body>
+</html>
